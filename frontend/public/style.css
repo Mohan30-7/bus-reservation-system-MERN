@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.top-nav {
+    background: #fff;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.brand {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #e53935;
+}
+
+.nav-link {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.bus-strip {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.bus-card {
+    flex: 1;
+    background: #fff;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.bus-photo {
+    height: 180px;
+    border-radius: 10px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.bus1 {
+    background-image: url('/b1.jpg');
+}
+
+.bus2 {
+    background-image: url('/b2.jpg');
+}
+
+.bus3 {
+    background-image: url('/b4.jpg');
+}
+
+.bus4 {
+    background-image: url('/b5.jpg');
+}
+
+#bus-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #667eea;
+    color: #fff;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.select-btn,
+#load-bookings-btn,
+#booking-form button {
+    background: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#booking-form {
+    background: #f5576c;
+    padding: 25px;
+    border-radius: 15px;
+    color: #fff;
+    max-width: 500px;
+    margin: auto;
+}
+
+#booking-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.faq-section {
+    width: 100%;
+    padding: 60px 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.faq-container {
+    max-width: 1400px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-question {
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-answer {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 120px;
+    padding: 20px;
+}
+
+.site-footer {
+    background: #f5f6f8;
+    padding: 50px 0 20px;
+    margin-top: 60px;
+}
+
+.footer-links {
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 0 40px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #000;
+}
+
+.footer-column p {
+    margin-bottom: 10px;
+    color: #555;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer-column p:hover {
+    color: #e53935;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
